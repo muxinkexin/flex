@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch / models
+*.pth
+*.pt
+*.onnx
+models/
+checkpoints/
+
+# Training eval code (train already release)
+eval_batch_cs.py
+find_best_weight_from_log.py
+
+# Logs and outputs
+logs/
+wandb/
+*.log
+*.txt.log
+events.out.tfevents*
+
+# Datasets (users download these separately)
+kitti_data/
+kitti_data_png/
+cityscapes/
+make3d/
+
+# Generated predictions
+*_disp.jpg
+*_disp.png
+*_disp.npy
+*.jpg
+*.png
+
+# IDEs and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+
+# Videos
+*.mp4
+
+# Office
+*.xlsx
+
+# Keep ckpt directory placeholder
+!ckpt/keep
+!ckpt/.gitkeep
